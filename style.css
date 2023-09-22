@@ -1,0 +1,43 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 15px;
+    padding: 5px;
+}
+
+.projects {
+    grid-column: 2 / 3;
+}
+
+.subheader2 {
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.header-items ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+
+.project-card {
+    background-color: thistle;
+    height: 250px;
+    text-align: center;
+}
+
+.footer {
+    background-color: gray;
+    grid-column: span 2;
+}
